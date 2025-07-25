@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KrishiBhasha AI – Circular Simplifier for Farmers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="container flex items-center justify-between py-16">
+      <div class="flex items-center gap-8">
+        <span class="emoji" aria-hidden="true">🌾</span>
+        <h1 class="project-title">KrishiBhasha AI – Circular Simplifier for Farmers</h1>
+      </div>
+      <nav>
+        <ul class="nav-list flex gap-16">
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#solution">Solution</a></li>
+          <li><a href="#tech">Tech&nbsp;Stack</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#workflow">Workflow</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PROBLEM STATEMENT -->
+  <section id="problem" class="section bg-1">
+    <div class="container">
+      <h2 class="section-title">The Problem</h2>
+      <p class="section-description">
+        Government departments regularly release circulars in complex bureaucratic English or formal Hindi, making it extremely difficult for rural farmers to comprehend. This results in missed application deadlines, incorrect documentation, or complete unawareness of beneficial schemes.
+      </p>
+      <div class="challenge-cards grid-2 gap-16 mt-8">
+        <div class="card">
+          <div class="card__body flex gap-8 items-center">
+            <span class="emoji" aria-hidden="true">📚</span>
+            <p>Technical and legal jargon is difficult to understand</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body flex gap-8 items-center">
+            <span class="emoji" aria-hidden="true">🚫</span>
+            <p>No centralized system for simplification</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body flex gap-8 items-center">
+            <span class="emoji" aria-hidden="true">⏰</span>
+            <p>Missing deadlines and opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body flex gap-8 items-center">
+            <span class="emoji" aria-hidden="true">🗣️</span>
+            <p>Most farmers lack fluency in English and formal Hindi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION OVERVIEW -->
+  <section id="solution" class="section bg-2">
+    <div class="container">
+      <h2 class="section-title">Our Solution: KrishiBhasha AI</h2>
+      <p class="section-description">
+        KrishiBhasha AI leverages Generative AI, translation models, and text-to-speech to deliver farmer-friendly circulars in their own language with clear action steps.
+      </p>
+      <div class="feature-cards grid-3 gap-16 mt-8">
+        <div class="card">
+          <div class="card__body">
+            <h4>Document Upload</h4>
+            <p>Upload PDFs, SMS, or images of circulars</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h4>AI Simplification</h4>
+            <p>GPT-4 converts jargon into simple language</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h4>Regional Translation</h4>
+            <p>IndicTrans translates into Hindi, Marathi, Telugu & more</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h4>Audio Summaries</h4>
+            <p>ElevenLabs TTS generates spoken summaries</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h4>Action Steps</h4>
+            <p>Step-by-step guidance and deadlines for farmers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY STACK -->
+  <section id="tech" class="section bg-3">
+    <div class="container">
+      <h2 class="section-title">Technology Stack</h2>
+      <div class="grid-2 gap-16 mt-8">
+        <div class="card">
+          <div class="card__header"><h4>Frontend</h4></div>
+          <div class="card__body"><ul>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+            <li>HTML5</li>
+          </ul></div>
+        </div>
+        <div class="card">
+          <div class="card__header"><h4>Backend</h4></div>
+          <div class="card__body"><ul>
+            <li>Python (FastAPI)</li>
+          </ul></div>
+        </div>
+        <div class="card">
+          <div class="card__header"><h4>GenAI</h4></div>
+          <div class="card__body"><ul>
+            <li>OpenAI GPT-4</li>
+          </ul></div>
+        </div>
+        <div class="card">
+          <div class="card__header"><h4>Translation</h4></div>
+          <div class="card__body"><ul>
+            <li>IndicTrans</li>
+          </ul></div>
+        </div>
+        <div class="card">
+          <div class="card__header"><h4>OCR</h4></div>
+          <div class="card__body"><ul>
+            <li>Tesseract OCR</li>
+          </ul></div>
+        </div>
+        <div class="card">
+          <div class="card__header"><h4>Storage & Deployment</h4></div>
+          <div class="card__body"><ul>
+            <li>Firebase</li>
+            <li>Vercel (Frontend)</li>
+            <li>Railway (Backend)</li>
+          </ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE DEMO -->
+  <section id="demo" class="section bg-4">
+    <div class="container">
+      <h2 class="section-title">Try the Demo</h2>
+      <div id="demoCard" class="card mt-8">
+        <div class="card__body">
+          <div class="upload-section">
+            <h4>1. Upload a Government Circular</h4>
+            <input type="file" id="fileInput" class="form-control" accept=".pdf,.txt,.png,.jpg,.jpeg" />
+            <button id="sampleBtn" class="btn btn--secondary mt-8">Use Sample Circular</button>
+          </div>
+
+          <div id="processSection" class="mt-8 hidden">
+            <h4>2. Processing Status</h4>
+            <ul id="processList" class="process-list"></ul>
+          </div>
+
+          <div id="resultSection" class="mt-8 hidden">
+            <h4>3. Simplified Summary</h4>
+            <label for="languageSelect" class="form-label">Choose Language</label>
+            <select id="languageSelect" class="form-control"></select>
+            <pre id="summaryText" class="mt-8"></pre>
+
+            <h4 class="mt-8">4. Audio Summary</h4>
+            <button id="playAudio" class="btn btn--primary">Play Audio</button>
+
+            <h4 class="mt-8">5. Action Steps</h4>
+            <ul id="actionSteps" class="action-steps"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW VISUALIZATION -->
+  <section id="workflow" class="section bg-5">
+    <div class="container">
+      <h2 class="section-title">System Workflow</h2>
+      <p class="section-description">Complete technical architecture from document upload to farmer-friendly output</p>
+      <div class="chart-container mt-8" style="position: relative; height: 500px;">
+        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/7c4d2c4a3309dcf397bb414b7455ff04/a4acef48-2e03-4d0d-85e4-5dfcb8a1caf1/60a94483.png" alt="KrishiBhasha AI Technical Architecture Flow" style="max-width: 100%; max-height: 100%;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS SECTION -->
+  <section id="benefits" class="section bg-6">
+    <div class="container">
+      <h2 class="section-title">Benefits for Farmers</h2>
+      <ul class="benefits-list mt-8">
+        <li>Instant access to simplified, actionable information</li>
+        <li>Support in local languages and audio formats</li>
+        <li>Increased awareness of government schemes</li>
+        <li>Timely application and higher subsidy utilization</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-16">
+    <div class="container flex justify-between items-center flex-wrap gap-8">
+      <p>&copy; 2025 Tech Titans – KrishiBhasha AI</p>
+      <p>Open Innovation – Agriculture & Governance | Sandip University</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
